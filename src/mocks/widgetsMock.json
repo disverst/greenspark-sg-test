@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "type": "plastic bottles",
+    "amount": 100,
+    "action": "collects",
+    "active": true,
+    "linked": true,
+    "selectedColor": "blue"
+  },
+  {
+    "id": 2,
+    "type": "trees",
+    "amount": 50,
+    "action": "plants",
+    "active": false,
+    "linked": false,
+    "selectedColor": "green"
+  },
+  {
+    "id": 3,
+    "type": "carbon",
+    "amount": 1000,
+    "action": "offsets",
+    "active": false,
+    "linked": true,
+    "selectedColor": "black"
+  }
+]
