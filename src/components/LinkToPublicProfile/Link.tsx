@@ -4,8 +4,7 @@ const Link: React.FC = () => {
   return (
     <a
       href="#"
-      className="hover:underline"
-      style={{ fontSize: '14px', color: '#3B755F' }}
+      className="hover:underline text-custom-size text-custom-green"
     >
       Link to Public Profile
     </a>

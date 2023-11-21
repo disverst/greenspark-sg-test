@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import Tooltip from './Tooltip';
-import TooltipIcon from './TooltipIcon';
 import Link from './Link';
+import Tooltip from './Tooltip';
+import Checkbox from './Checkbox';
+import TooltipIcon from './TooltipIcon';
 
 const LinkToPublicProfile: React.FC = () => {
   const [isTooltipVisible, setIsTooltipVisible] = useState(false);
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center justify-start">
       <Link />
       <div
         className="ml-1 relative"
@@ -26,6 +27,7 @@ const LinkToPublicProfile: React.FC = () => {
           <Tooltip />
         </div>
       </div>
+      <Checkbox />
     </div>
   );
 };
