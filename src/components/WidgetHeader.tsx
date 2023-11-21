@@ -10,7 +10,7 @@ const WidgetHeader: React.FC<WidgetHeaderProps> = (props) => {
   const { action, amount, type } = props;
   return (
     <div
-      className="flex items-center space-x-2 py-4 px-3 rounded-md"
+      className="flex items-center space-x-2 py-4 px-3 rounded-md mb-4"
       style={{ backgroundColor: '#2E3A8C' }}
     >
       <div className="flex flex-col items-center mr-1">

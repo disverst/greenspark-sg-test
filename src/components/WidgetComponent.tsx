@@ -17,12 +17,12 @@ const WidgetComponent: React.FC<WidgetComponentProps> = ({ widget }) => {
       <LinkToPublicProfile />
 
       <div>
-        <p style={{ fontSize: '14px', color: '#3B755F' }}>Badge color</p>
+        <p className="text-custom-size text-custom-green">Badge color</p>
         {/* <ColorSelector selectedColor={widget.selectedColor} /> */}
       </div>
 
       <div className="flex items-center justify-between">
-        <p style={{ fontSize: '14px', color: '#3B755F' }}>Activate badge</p>
+        <p className="text-custom-size text-custom-green">Activate badge</p>
         {/* <ToggleSwitch isOn={widget.active} /> */}
       </div>
     </div>

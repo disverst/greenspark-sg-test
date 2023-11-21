@@ -15,6 +15,13 @@ const config: Config = {
       },
       boxShadow: {
         custom: '0 42px 76px rgba(0, 0, 0, 0.15)',
+        custom2: '0 0px 20px rgba(0, 0, 0, 0.15)',
+      },
+      fontSize: {
+        'custom-size': '14px',
+      },
+      colors: {
+        'custom-green': '#3B755F',
       },
     },
   },
